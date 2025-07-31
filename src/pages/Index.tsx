@@ -5,14 +5,12 @@ const Index = () => {
     <div className="min-h-screen bg-white flex items-center justify-center p-4">
       <div className="max-w-2xl w-full bg-white border border-blue-100 rounded-3xl shadow-2xl overflow-hidden">
         {/* Header */}
-        <div className="bg-gradient-to-r from-blue-600 to-blue-500 px-8 py-6 text-center">
-          <div className="flex items-center justify-center mb-3">
-            <Icon name="Heart" size={32} className="text-white mr-3" />
-            <h1 className="text-2xl font-bold text-white">ЦГКБ №3</h1>
-          </div>
-          <div className="bg-white/20 rounded-full px-4 py-1 inline-block">
-            <span className="text-white text-sm font-medium">Государственная клиническая больница</span>
-          </div>
+        <div className="bg-white px-8 py-6 text-center border-b border-blue-100">
+          <img 
+            src="https://cdn.poehali.dev/files/0b348a5c-8a5f-48b4-84b4-18b6b7b514ff.jpg"
+            alt="Центральная Городская Больница №3 Екатеринбург"
+            className="max-w-lg mx-auto h-auto"
+          />
         </div>
 
         {/* Main Content */}
